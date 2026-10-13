@@ -1,0 +1,43 @@
+# Ambienti e cache Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Dati privati: database, password hash, sessioni e registro locale
+data/
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.sqlite3-journal
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-wal
+*.sqlite3-shm
+chain-state.json
+
+# Configurazioni e backup locali
+.env
+.env.*
+!.env.example
+backups/
+exports/
+*backup*.json
+*export*.csv
+figurae-sales.csv
+figurae-vendite.csv
+figurae-prices.csv
+figurae-prezzi.csv
+*.log
+
+# Strumenti di sviluppo Solidity, quando usati separatamente
+node_modules/
+
+# Editor e sistema operativo
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
